@@ -151,3 +151,32 @@ body {
   text-align: center;
   padding: 18px;
 }
+
+/* ===== Call for Abstracts page enhancements ===== */
+
+.page-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0b1f4a;
+}
+
+.page-container h2 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #0b1f4a;
+  font-size: 20px;
+}
+
+.page-container p {
+  line-height: 1.6;
+}
+
+.page-container ul {
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+.page-container li {
+  margin-bottom: 6px;
+}
