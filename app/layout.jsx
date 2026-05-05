@@ -8,10 +8,13 @@ export default function RootLayout({ children }) {
         <header className="topbar">
           <div className="topbar-container">
 
-            {/* LOGO PLACEHOLDER (IMAGE CAN BE ADDED LATER) */}
-            <div className="logo-placeholder">
-              {/* Intentionally empty */}
-            </div>
+            <a href="/">
+              <img
+                src="/header-logo.png"
+                alt="SAAC 2026 Logo"
+                className="header-logo"
+              />
+            </a>
 
             {/* NAVIGATION (SICC-style) */}
             <nav className="nav">
