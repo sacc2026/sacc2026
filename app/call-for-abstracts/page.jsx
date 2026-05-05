@@ -20,33 +20,27 @@ export default function CallForAbstractsPage() {
       <ul>
         <li>Heterogeneous and homogeneous catalysis</li>
         <li>Electrocatalysis and photocatalysis</li>
-        <li>Energy, environmental, and sustainable catalysis</li>
+        <li>Energy and environmental catalysis</li>
         <li>Reaction engineering and kinetics</li>
         <li>Industrial catalytic processes</li>
       </ul>
 
       <h2>Submission Guidelines</h2>
       <ul>
-        <li>Abstracts must be written in English</li>
-        <li>Maximum length: <strong>1 page</strong></li>
+        <li>Abstracts should be written in English</li>
+        <li>Maximum length: <strong>one page</strong></li>
         <li>Please use the official abstract template</li>
       </ul>
 
       <h2>Submission Method</h2>
-      <p>
-        Please submit your abstract via email to:
-      </p>
-      <p>
-        <strong>admin@singapore-catalysis-society.com</strong>
-      </p>
-      <p>
-        Use the subject line: <em>SAAC 2026 Abstract Submission</em>
-      </p>
+      <p>Please email your abstract to:</p>
+      <p><strong>admin@singapore-catalysis-society.com</strong></p>
+      <p>Email subject: <em>SAAC 2026 Abstract Submission</em></p>
 
       <h2>Abstract Template</h2>
       <p>
-        #
-          Download Abstract Template
+        <a href="#" target="_blank" rel="noreferrer">
+          Download Abstract Template (PDF)
         </a>
       </p>
     </>
