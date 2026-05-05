@@ -4,11 +4,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {/* ===== TOP BAR ===== */}
         <header className="topbar">
           <div className="topbar-container">
 
-               <a href="/">
+             <a href="/">
               <img
                 src="/header-logo.png"
                 alt="SAAC 2026 Logo"
@@ -18,46 +17,40 @@ export default function RootLayout({ children }) {
 
             {/* Navigation */}
             <nav className="nav">
-
-              {/* ABOUT dropdown */}
-              <div className="nav-item dropdown">
-                <span>
+              <div className="dropdown">
+                <a href="#">
                   ABOUT SAAC <span className="arrow">▼</span>
-                </span>
+                </a>
                 <div className="dropdown-menu">
                   About the Conference
                   Organising Committee
                 </div>
               </div>
 
-              {/* Speakers */}
               Speakers
 
-              {/* Programme dropdown */}
-              <div className="nav-item dropdown">
-                <span>
+              <div className="dropdown">
+                <a href="#">
                   PROGRAMME DETAILS <span className="arrow">▼</span>
-                </span>
+                </a>
                 <div className="dropdown-menu">
                   Technical Programme
                   Schedule
                 </div>
               </div>
 
-              {/* Registration */}
               Registration
 
-              {/* Call for Abstracts */}
               Call for Abstracts
-
             </nav>
+
           </div>
         </header>
 
-        {/* Page content */}
-        <main className="page-container">{children}</main>
+        <main className="page-container">
+          {children}
+        </main>
 
-        {/* Footer */}
         <footer className="footer">
           © 2026 Southeast Asia Catalysis Conference
         </footer>
@@ -65,3 +58,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+``
