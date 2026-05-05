@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
           color: "white",
           padding: "16px"
         }}>
-          <h1>SAAC 2026</h1>
+          <h1>Southeast Asia Catalysis Conference 2026</h1>
 
           <nav style={{ marginTop: "8px" }}>
             <a href="/" style={{ color: "white", marginRight: "15px" }}>
