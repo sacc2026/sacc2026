@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background: #f4f4f4;
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
 }
 
 /* ===== HEADER ===== */
@@ -22,7 +22,7 @@ body {
   height: 52px;
 }
 
-/* ===== NAV ===== */
+/* ===== NAVIGATION ===== */
 .nav {
   display: flex;
   align-items: center;
@@ -31,10 +31,10 @@ body {
 }
 
 .nav a {
-  color: white;
+  color: WHITE;
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.7px;
   text-decoration: none;
   position: relative;
   padding-bottom: 10px;
@@ -67,7 +67,7 @@ body {
   top: 130%;
   left: 0;
   min-width: 240px;
-  background: white;
+  background: #ffffff;
   border-top: 4px solid #f2c200;
   box-shadow: 0 8px 24px rgba(0,0,0,0.3);
   z-index: 1000;
@@ -79,7 +79,7 @@ body {
   font-size: 13px;
   font-weight: 600;
   color: #0b1f4a;
-  text-transform: none;
+  letter-spacing: 0.3px;
 }
 
 .dropdown-menu a:hover {
@@ -105,4 +105,3 @@ body {
   text-align: center;
   padding: 18px;
 }
-``
