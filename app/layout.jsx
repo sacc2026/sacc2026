@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
         <header className="topbar">
           <div className="topbar-container">
 
-             <a href="/">
+            <a href="/">
               <img
                 src="/header-logo.png"
                 alt="SAAC 2026 Logo"
@@ -17,8 +17,10 @@ export default function RootLayout({ children }) {
 
             {/* Navigation */}
             <nav className="nav">
+
+              {/* ABOUT dropdown */}
               <div className="dropdown">
-                <a href="#">
+                #
                   ABOUT SAAC <span className="arrow">▼</span>
                 </a>
                 <div className="dropdown-menu">
@@ -27,10 +29,13 @@ export default function RootLayout({ children }) {
                 </div>
               </div>
 
+              {/* Speakers */}
               Speakers
+              </a>
 
+              {/* Programme dropdown */}
               <div className="dropdown">
-                <a href="#">
+                #
                   PROGRAMME DETAILS <span className="arrow">▼</span>
                 </a>
                 <div className="dropdown-menu">
@@ -39,17 +44,19 @@ export default function RootLayout({ children }) {
                 </div>
               </div>
 
+              {/* Registration */}
               Registration
+              </a>
 
+              {/* Call for Abstracts */}
               Call for Abstracts
-            </nav>
+              </a>
 
+            </nav>
           </div>
         </header>
 
-        <main className="page-container">
-          {children}
-        </main>
+        <main className="page-container">{children}</main>
 
         <footer className="footer">
           © 2026 Southeast Asia Catalysis Conference
@@ -58,4 +65,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-``
