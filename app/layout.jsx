@@ -10,10 +10,10 @@ export default function RootLayout({ children }) {
             <h1>SAAC 2026</h1>
 
             <nav>
-              <Link href="/">Home</Link>
-              <Link href="/speakers">Speakers</Link>
-              <Link href="/program">Program</Link>
-            </nav>
+  Home</Link>
+  Speakers</Link>
+  Program</Link>
+</nav>
 
           </div>
         </header>
