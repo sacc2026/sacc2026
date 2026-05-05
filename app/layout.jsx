@@ -23,45 +23,48 @@ export default function RootLayout({ children }) {
               />
             </a>
 
-            {/* Navigation */}
-            <nav
-              style={{
-                display: "flex",
-                alignItems: "center", 
-                gap: "36px",
-                fontSize: "14px",
-                fontWeight: "700",
-                letterSpacing: "0.6px",
-                textTransform: "uppercase",
-                color: "white",
-              }}
-            >
-              
-              <a href="#" style={{ color: "white", textDecoration: "none" }}>
-                ABOUT SAAC <span style={{ fontSize: "10px", marginLeft: "4px" }}>▼</span>
-              </a>
+           {/* Navigation */}
+<nav className="nav">
+  {/* ABOUT dropdown */}
+  <div className="nav-item dropdown">
+    <a href="#">
+      ABOUT SAAC <span className="arrow">▼</span>
+    </a>
+    <div className="dropdown-menu">
+      <a href="#">About the Conference</a>
+      <a href="#">Organising Committee</a>
+    </div>
+  </div>
 
-              <a href="/speakers" style={{ color: "white", textDecoration: "none" }}>
-                Speakers
-              </a>
+  {/* Speakers */}
+  <div className="nav-item">
+    <a href="/speakers">SPEAKERS</a>
+  </div>
 
-              
-              <a href="#" style={{ color: "white", textDecoration: "none" }}>
-                PROGRAMME DETAILS <span style={{ fontSize: "10px", marginLeft: "4px" }}>▼</span>
-              </a>
-              
+  {/* PROGRAMME dropdown */}
+  <div className="nav-item dropdown">
+    <a href="#">
+      PROGRAMME DETAILS <span className="arrow">▼</span>
+    </a>
+    <div className="dropdown-menu">
+      <a href="/program">Technical Programme</a>
+      <a href="/program">Schedule</a>
+    </div>
+  </div>
 
-              <a
-                href="https://www.eventbrite.com"
-                style={{ color: "white", textDecoration: "none" }}
-              >
-                Registration
-              </a>
+  {/* Registration */}
+  <div className="nav-item">
+    <a href="https://www.eventbrite.com" target="_blank" rel="noreferrer">
+      REGISTRATION
+    </a>
+  </div>
 
-              <a href="#" style={{ color: "white", textDecoration: "none" }}>
-                Call for Abstracts
-              </a>
-            </nav>
+  {/* Call for Abstracts */}
+  <div className="nav-item">
+    <a href="#">CALL FOR ABSTRACTS</a>
+  </div>
+</nav>
+
           </div>
         </header>
 
