@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
             <nav
               style={{
                 display: "flex",
+                alignItems: "center", 
                 gap: "36px",
                 fontSize: "14px",
                 fontWeight: "700",
@@ -35,17 +36,20 @@ export default function RootLayout({ children }) {
                 color: "white",
               }}
             >
+              
               <a href="#" style={{ color: "white", textDecoration: "none" }}>
-                ABOUT SAAC ▼
+                ABOUT SAAC <span style={{ fontSize: "10px", marginLeft: "4px" }}>▼</span>
               </a>
 
               <a href="/speakers" style={{ color: "white", textDecoration: "none" }}>
                 Speakers
               </a>
 
+              
               <a href="#" style={{ color: "white", textDecoration: "none" }}>
-                PROGRAMME DETAILS ▼
+                PROGRAMME DETAILS <span style={{ fontSize: "10px", marginLeft: "4px" }}>▼</span>
               </a>
+              
 
               <a
                 href="https://www.eventbrite.com"
