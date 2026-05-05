@@ -15,7 +15,7 @@ export default function HomePage() {
       </p>
 
       <p>
-        SAAC 2026 brings together researchers and industry experts to discuss
+        SACC 2026 brings together researchers and industry experts to discuss
         advances in catalysis science and engineering.
       </p>
     </>
