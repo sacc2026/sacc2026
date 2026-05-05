@@ -20,9 +20,10 @@ body {
 }
 
 /* ===== LOGO PLACEHOLDER ===== */
-.logo-placeholder {
-  width: 180px;   /* same visual weight as SICC logo */
+.header-logo {
   height: 50px;
+  width: auto;
+  display: block;
 }
 
 /* ===== NAVIGATION ===== */
