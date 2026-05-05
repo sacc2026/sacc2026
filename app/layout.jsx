@@ -4,42 +4,60 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header style={{
-          background: "#003366",
-          color: "white",
-          padding: "16px"
-        }}>
-          <h1>Southeast Asia Catalysis Conference 2026</h1>
+        {/* ===== TOP HEADER ===== */}
+        <header className="topbar">
+          <div className="topbar-container">
 
-          <nav style={{ marginTop: "8px" }}>
-            <a href="/" style={{ color: "white", marginRight: "15px" }}>
-              Home
-            </a>
+            {/* LOGO PLACEHOLDER (IMAGE CAN BE ADDED LATER) */}
+            <div className="logo-placeholder">
+              {/* Intentionally empty */}
+            </div>
 
-            <a href="/speakers" style={{ color: "white", marginRight: "15px" }}>
+            {/* NAVIGATION (SICC-style) */}
+            <nav className="nav">
+
+              {/* ABOUT dropdown */}
+              <div className="nav-item dropdown">
+                <span>ABOUT SAAC ▾</span>
+                <div className="dropdown-menu">
+                  About the Conference
+                  Organising Committee
+                </div>
+              </div>
+
+              {/* Speakers */}
               Speakers
-            </a>
 
-            <a href="/program" style={{ color: "white" }}>
-              Program
-            </a>
-          </nav>
+              {/* Programme dropdown */}
+              <div className="nav-item dropdown">
+                <span>PROGRAMME DETAILS ▾</span>
+                <div className="dropdown-menu">
+                  Technical Programme
+                  Schedule
+                </div>
+              </div>
+
+              {/* Registration */}
+              Registration
+
+              {/* Call for Abstracts */}
+              Call for Abstracts
+
+            </nav>
+
+          </div>
         </header>
 
-        <main style={{ padding: "40px" }}>
+        {/* PAGE CONTENT */}
+        <main className="page-container">
           {children}
         </main>
 
-        <footer style={{
-          background: "#003366",
-          color: "white",
-          padding: "20px",
-          textAlign: "center"
-        }}>
+        {/* FOOTER */}
+        <footer className="footer">
           © 2026 Southeast Asia Catalysis Conference
         </footer>
       </body>
     </html>
   );
 }
-``
