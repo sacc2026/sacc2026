@@ -27,19 +27,21 @@ export default function CallForAbstractsPage() {
 
       <h2>Submission Guidelines</h2>
       <ul>
-        <li>Abstracts should be written in English</li>
+        <li>Abstracts must be written in English</li>
         <li>Maximum length: <strong>one page</strong></li>
         <li>Please use the official abstract template</li>
       </ul>
 
       <h2>Submission Method</h2>
-      <p>Please email your abstract to:</p>
+      <p>Please submit your abstract by email to:</p>
       <p><strong>admin@singapore-catalysis-society.com</strong></p>
-      <p>Email subject: <em>SAAC 2026 Abstract Submission</em></p>
+      <p>
+        Email subject: <em>SAAC 2026 Abstract Submission</em>
+      </p>
 
       <h2>Abstract Template</h2>
       <p>
-        <a href="#" target="_blank" rel="noreferrer">
+        <a href="#" style={{ color: "#0b1f4a", textDecoration: "underline" }}>
           Download Abstract Template (PDF)
         </a>
       </p>
