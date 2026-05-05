@@ -8,11 +8,13 @@ export default function RootLayout({ children }) {
         <header className="navbar">
           <div className="container">
             <h1>SAAC 2026</h1>
+
             <nav>
-              /Home</Link>
-              /speakersSpeakers</Link>
-              /programProgram</Link>
+              <Link href="/">Home</Link>
+              <Link href="/speakers">Speakers</Link>
+              <Link href="/program">Program</Link>
             </nav>
+
           </div>
         </header>
 
@@ -27,3 +29,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+``
