@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
 
               {/* Call for Abstracts */}
               <div className="nav-item">
-                <a href="#">CALL FOR ABSTRACTS</a>
+                <a href="/call-for-abstracts">CALL FOR ABSTRACTS</a>
               </div>
 
             </nav>
