@@ -6,8 +6,12 @@ export default function RootLayout({ children }) {
       <body>
         <header style={{ background: "#003366", color: "white", padding: "15px" }}>
           <h1>SAAC 2026</h1>
-          <nav>
-            Home | Speakers | Program
+          <nav style={{ marginTop: "10px" }}>
+            Home 
+            {"|"} 
+            Speakers 
+            {"|"} 
+            Program
           </nav>
         </header>
 
