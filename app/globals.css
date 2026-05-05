@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   background: #f4f4f4;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
 }
 
-/* ===== TOP BAR ===== */
+/* ===== HEADER ===== */
 .topbar {
   background: #0b1f4a;
 }
@@ -12,45 +12,36 @@ body {
 .topbar-container {
   max-width: 1400px;
   margin: auto;
-  padding: 18px 32px;
+  padding: 20px 36px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* Logo */
 .header-logo {
-  height: 50px;
-  width: auto;
+  height: 52px;
 }
 
-/* ===== NAVIGATION ===== */
+/* ===== NAV ===== */
 .nav {
   display: flex;
   align-items: center;
-  gap: 32px;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 0.4px;
+  gap: 36px;
+  text-transform: uppercase;
 }
 
-.nav a,
-.nav span {
+.nav a {
   color: white;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
   text-decoration: none;
-  cursor: pointer;
   position: relative;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
 }
 
-.arrow {
-  font-size: 11px;
-  margin-left: 4px;
-}
-
-/* Hover underline */
-.nav a:hover::after,
-.nav span:hover::after {
+/* Strong hover underline */
+.nav a:hover::after {
   content: "";
   position: absolute;
   left: 0;
@@ -60,7 +51,12 @@ body {
   background: #f2c200;
 }
 
-/* ===== DROPDOWNS ===== */
+.arrow {
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+/* ===== DROPDOWN ===== */
 .dropdown {
   position: relative;
 }
@@ -68,35 +64,33 @@ body {
 .dropdown-menu {
   display: none;
   position: absolute;
-  top: 135%;
+  top: 130%;
   left: 0;
-  background: #ffffff;
   min-width: 240px;
-  border-top: 3px solid #f2c200;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
-  z-index: 999;
+  background: white;
+  border-top: 4px solid #f2c200;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  z-index: 1000;
 }
 
-.dropdown-menu a,
-.dropdown-menu span {
+.dropdown-menu a {
   display: block;
-  padding: 12px 16px;
-  font-size: 14px;
-  font-weight: 500;
+  padding: 14px 18px;
+  font-size: 13px;
+  font-weight: 600;
   color: #0b1f4a;
+  text-transform: none;
 }
 
-.dropdown-menu a:hover,
-.dropdown-menu span:hover {
+.dropdown-menu a:hover {
   background: #f4f6fa;
 }
 
-/* Show dropdown */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
 
-/* ===== PAGE CONTENT ===== */
+/* ===== CONTENT ===== */
 .page-container {
   max-width: 1100px;
   margin: auto;
@@ -111,3 +105,4 @@ body {
   text-align: center;
   padding: 18px;
 }
+``
