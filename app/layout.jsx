@@ -4,10 +4,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header style={{ padding: "20px", background: "#0b1f4a", color: "white" }}>
-          /
-            SAAC 2026
-          </a>
+        <header style={{ padding: "20px", background: "#0b1f4a", color: "#fff" }}>
+          <a href="/">SAAC 2026</a>
         </header>
 
         <main>{children}</main>
