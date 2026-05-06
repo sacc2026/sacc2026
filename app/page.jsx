@@ -16,17 +16,17 @@ export default function HomePage() {
       <section className="home-section">
         <h2>Hosted By</h2>
         <div className="logo-row">
-          /logos/scs.png
+          <img src="/logos/scs.png" alt="Singapore Catalysis Society" />
         </div>
       </section>
 
       {/* ===== SUPPORTED BY ===== */}
       <section className="home-section">
         <h2>Supported By</h2>
-        <div className="logo-row">
-          /logos/isce2.png
-          /logos/nus.png
-          /logos/ntu.png
+        <div className="logo-row">   
+          <img src="/logos/isce2.png" alt="ISCE²" />
+          <img src="/logos/nus.png" alt="National University of Singapore" />
+          <img src="/logos/ntu.png" alt="Nanyang Technological University" />
         </div>
       </section>
 
