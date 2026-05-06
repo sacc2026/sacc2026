@@ -88,6 +88,19 @@ export default function HomePage() {
             </li>
           </ul>
         </div>
+        
+          {/* Google Map */}
+          <div className="conference-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1185.8720313082829!2d103.77232306057886!3d1.3058217211365872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1af575f7ff17%3A0x1056d4b4bd4641c8!2sUniversity%20Town%20(UTown)!5e0!3m2!1sen!2ssg!4v1778055592973!5m2!1sen!2ssg"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+              style={{ border: 0 }}
+            ></iframe>
+          </div>
+        
+        </div>
       </section>
     </>
   );
