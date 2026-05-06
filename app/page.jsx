@@ -68,8 +68,7 @@ export default function HomePage() {
           <ul className="info-list">
             <li>
               <div>
-                <strong>Location</strong>
-                National University of Singapore UTown
+                <strong>National University of Singapore UTown</strong>
                 2 College Ave W, Singapore 138607
               </div>
             </li>
