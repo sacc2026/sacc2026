@@ -2,3 +2,20 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+
+.page-container h1 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.page-container h2 {
+  margin-top: 28px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #0b1f4a;
+  padding-bottom: 6px;
+}
+
+.page-container p,
+.page-container li {
+  line-height: 1.6;
+}
