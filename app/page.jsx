@@ -14,41 +14,46 @@ export default function HomePage() {
 
       {/* ===== HOSTED BY ===== */}
       <section className="home-section">
-        <h2>Hosted By</h2>
-        <div className="logo-row">
-          <img src="/logos/scs.png" alt="Singapore Catalysis Society" />
+        <div className="content">
+          <h2>Hosted By</h2>
+          <div className="logo-row">
+            <img src="/logos/scs.png" alt="Singapore Catalysis Society" />
+          </div>
         </div>
       </section>
 
       {/* ===== SUPPORTED BY ===== */}
       <section className="home-section">
-        <h2>Supported By</h2>
-        <div className="logo-row">   
-          <img src="/logos/isce2.png" alt="ISCE²" />
-          <img src="/logos/nus.png" alt="National University of Singapore" />
-          <img src="/logos/ntu.png" alt="Nanyang Technological University" />
+        <div className="content">
+          <h2>Supported By</h2>
+          <div className="logo-row">   
+            <img src="/logos/isce2.png" alt="ISCE²" />
+            <img src="/logos/nus.png" alt="National University of Singapore" />
+            <img src="/logos/ntu.png" alt="Nanyang Technological University" />
+          </div>
         </div>
       </section>
 
       {/* ===== IMPORTANT DATES ===== */}
       <section className="home-dates">
-        <h2>Important Dates</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td>Abstract Submission</td>
-              <td>TBC</td>
-            </tr>
-            <tr>
-              <td>Notification of Acceptance</td>
-              <td>TBC</td>
-            </tr>
-            <tr>
-              <td>Conference Dates</td>
-              <td>December 2026</td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="content">
+          <h2>Important Dates</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>Abstract Submission</td>
+                <td>TBC</td>
+              </tr>
+              <tr>
+                <td>Notification of Acceptance</td>
+                <td>TBC</td>
+              </tr>
+              <tr>
+                <td>Conference Dates</td>
+                <td>December 2026</td>
+              </tr>
+            </tbody>
+          </table>
       </section>
 
       {/* ===== CONFERENCE INFO ===== */}
