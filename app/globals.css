@@ -21,7 +21,7 @@ body {
 }
 
 .header-logo {
-  height: 52px;
+  height: 62px;
 }
 
 /* ===== NAVIGATION ===== */
@@ -194,4 +194,54 @@ body {
   color: white;
   text-align: center;
   padding: 18px;
+}
+
+/* ===== HEADER UPGRADE ===== */
+.topbar {
+  background: #0b1f4a;
+  min-height: 96px;                 /* taller header */
+  display: flex;
+  align-items: center;              /* vertical centering */
+}
+
+.topbar-container {
+  padding: 28px 48px;               /* more breathing space */
+}
+
+/* Bigger nav text */
+.nav {
+  font-size: 16px;                  /* was 14px */
+  gap: 40px;
+}
+
+.nav a,
+.nav span {
+  padding-bottom: 10px;
+}
+
+/* ===== Conference Information spacing (SICC-style) ===== */
+.home-section .content {
+  padding-left: 48px;   /* gives the left breathing room you want */
+}
+
+/* ===== Conference Information cards ===== */
+.info-list {
+  max-width: 650px;
+}
+
+.info-list li {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+}
+
+.info-list li strong {
+  display: block;
+  font-size: 18px;
+  color: #0b1f4a;
+  margin-bottom: 6px;
 }
