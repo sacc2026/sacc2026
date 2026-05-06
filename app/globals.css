@@ -269,3 +269,17 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+/* Full-width page flow */
+.main-content {
+  width: 100%;
+}
+
+/* Constrained content block (use where needed) */
+.content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
