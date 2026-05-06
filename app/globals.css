@@ -245,3 +245,25 @@ body {
   color: #0b1f4a;
   margin-bottom: 6px;
 }
+
+/* ===== SECTION HEADINGS (SICC-style) ===== */
+.home-section h2 {
+  font-size: 42px;               /* BIG title */
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #1b2f63;
+  text-align: center;            /* ✅ center the text */
+  margin-bottom: 24px;
+  position: relative;
+}
+
+/* Black underline */
+.home-section h2::after {
+  content: "";
+  display: block;
+  width: 120px;                  /* underline length */
+  height: 3px;
+  background: #1a1a1a;           /* black line */
+  margin: 18px auto 0;           /* ✅ center underline */
+}
