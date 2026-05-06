@@ -237,3 +237,35 @@ body {
   margin-bottom: 40px;
 }
 
+/* ===== Fullscreen Hero ===== */
+.home-hero {
+  min-height: 100vh;                 /* ✅ fills entire screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;           /* vertical centering */
+  align-items: center;
+  text-align: center;
+  background: white;
+}
+
+/* ===== Full-width Home Sections ===== */
+.home-section,
+.home-dates {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home-section > *,
+.home-dates > * {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-dates {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
