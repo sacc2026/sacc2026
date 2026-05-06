@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
               {/* ABOUT dropdown */}
               <div className="nav-item dropdown">
                 <a href="#">
-                  ABOUT SAAC <span className="arrow">▼</span>
+                  ABOUT SACC <span className="arrow">▼</span>
                 </a>
                 <div className="dropdown-menu">
                   <a href="#">About the Conference</a>
