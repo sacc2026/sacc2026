@@ -171,16 +171,26 @@ body {
 
 .logo-row {
   display: flex;
-  gap: 40px;
-  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
 .logo-row img {
-  height: 60px;
+  height: 90px;
+  max-width: 220px;
   object-fit: contain;
+  opacity: 0.9;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
+
+.logo-row img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
 
 .home-dates {
   margin-top: 60px;
@@ -213,3 +223,17 @@ body {
 .info-list li {
   margin-bottom: 10px;
 }
+
+
+/* ===== HOME: Hosted by / Supported by ===== */
+
+.home-section h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #0b1f4a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
