@@ -5,7 +5,7 @@ export default function Page() {
 
       <p>
         The Organising Committee of the Southeast Asia Catalysis Conference 2026
-        (SAAC 2026) invites the submission of abstracts for oral and poster
+        (SACC 2026) invites the submission of abstracts for oral and poster
         presentations.
       </p>
 
