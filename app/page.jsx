@@ -59,7 +59,7 @@ export default function HomePage() {
           <li><strong>Dates:</strong> December 2026</li>
           <li>
             <strong>Email:</strong>{" "}
-            saac2026@singapore-catalysis-society.com
+            TBC
           </li>
         </ul>
       </section>
