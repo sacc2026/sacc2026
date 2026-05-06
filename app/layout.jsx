@@ -4,7 +4,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header style={{ padding: "20px", background: "#0b1f4a", color: "white" }}>
+        <header style={{ padding: "20px", background: "#0b1f4a", color: "white" }}>      
+          / | 
+          /call-for-abstractsCall for Abstracts</a>
           <div>SAAC 2026</div>
         </header>
 
