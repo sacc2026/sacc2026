@@ -15,6 +15,7 @@ body {
   max-width: 1400px;
   margin: auto;
   padding: 20px 36px;
+  gap: 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,6 +29,7 @@ body {
 .nav {
   display: flex;
   align-items: center;
+  margin-left: 80px;
   gap: 36px;
   font-size: 14px;
   font-weight: 700;
@@ -267,3 +269,13 @@ body {
   background: #1a1a1a;           /* black line */
   margin: 18px auto 0;           /* ✅ center underline */
 }
+
+/* Increase spacing between logo and navigation */
+.topbar-container {
+  gap: 80px; /* adjust: 60px–120px depending on taste */
+}
+
+.logo-link {
+  margin-right: 80px;
+}
+
