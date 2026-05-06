@@ -3,12 +3,12 @@ export default function HomePage() {
     <>
       {/* ===== HERO ===== */}
       <section className="home-hero">
-        <h1>SACC 2026</h1>
+        <h1>SAAC 2026</h1>
         <p className="hero-subtitle">
           Southeast Asia Catalysis Conference
         </p>
         <p className="hero-info">
-          Singapore · 10 - 11 December 2026
+          Singapore · 10–11 December 2026
         </p>
       </section>
 
@@ -17,7 +17,10 @@ export default function HomePage() {
         <div className="content">
           <h2>Hosted By</h2>
           <div className="logo-row">
-            <img src="/logos/scs.png" alt="Singapore Catalysis Society" />
+            <img
+              src="/logos/scs.png"
+              alt="Singapore Catalysis Society"
+            />
           </div>
         </div>
       </section>
@@ -26,7 +29,7 @@ export default function HomePage() {
       <section className="home-section">
         <div className="content">
           <h2>Supported By</h2>
-          <div className="logo-row">   
+          <div className="logo-row">
             <img src="/logos/isce2.png" alt="ISCE²" />
             <img src="/logos/nus.png" alt="National University of Singapore" />
             <img src="/logos/ntu.png" alt="Nanyang Technological University" />
@@ -57,14 +60,34 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== CONFERENCE INFO ===== */}
+      {/* ===== CONFERENCE INFORMATION ===== */}
       <section className="home-section">
-        <h2>Conference Information</h2>
-        <ul className="info-list">
-          <li><strong>Location:</strong> Singapore</li>
-          <li><strong>Dates:</strong> December 2026</li>
-          <li><strong>Email:</strong> TBC</li>
-        </ul>
+        <div className="content">
+          <h2>Conference Information</h2>
+
+          <ul className="info-list">
+            <li>
+              <div>
+                <strong>Location</strong>
+                Singapore
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <strong>Dates</strong>
+                10–11 December 2026
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <strong>Email</strong>
+                TBC
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </>
   );
