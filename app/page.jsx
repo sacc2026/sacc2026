@@ -69,20 +69,21 @@ export default function HomePage() {
             <li>
               <div>
                 <strong>Location</strong>
-                Singapore
+                National University of Singapore UTown
+                2 College Ave W, Singapore 138607
               </div>
             </li>
 
             <li>
               <div>
                 <strong>Dates</strong>
-                10–11 December 2026
+                10 – 11 December 2026
               </div>
             </li>
 
             <li>
               <div>
-                <strong>Email</strong>
+                <strong>Contact Information</strong>
                 TBC
               </div>
             </li>
