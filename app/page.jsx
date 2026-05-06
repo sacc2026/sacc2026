@@ -8,7 +8,7 @@ export default function HomePage() {
           Southeast Asia Catalysis Conference
         </p>
         <p className="hero-info">
-          Singapore · 10–11 December 2026
+          Singapore · 10 – 11 December 2026
         </p>
       </section>
 
@@ -53,7 +53,7 @@ export default function HomePage() {
               </tr>
               <tr>
                 <td>Conference Dates</td>
-                <td>December 2026</td>
+                <td>10 – 11 December 2026</td>
               </tr>
             </tbody>
           </table>
@@ -62,44 +62,50 @@ export default function HomePage() {
 
       {/* ===== CONFERENCE INFORMATION ===== */}
       <section className="home-section">
-        <div className="content">
-          <h2>Conference Information</h2>
+        <div className="content conference-info">
 
-          <ul className="info-list">
-            <li>
-              <div>
-                <strong>National University of Singapore UTown</strong>
-                2 College Ave W, Singapore 138607
-              </div>
-            </li>
+          {/* Left: Conference details */}
+          <div className="conference-details">
+            <h2>Conference Information</h2>
 
-            <li>
-              <div>
-                <strong>Dates</strong>
-                10 – 11 December 2026
-              </div>
-            </li>
+            <ul className="info-list">
+              <li>
+                <div>
+                  <strong>Venue</strong>
+                  National University of Singapore, University Town (UTown)
+                  <br />
+                  2 College Ave W, Singapore 138607
+                </div>
+              </li>
 
-            <li>
-              <div>
-                <strong>Contact Information</strong>
-                TBC
-              </div>
-            </li>
-          </ul>
-        </div>
-        
-          {/* Google Map */}
+              <li>
+                <div>
+                  <strong>Dates</strong>
+                  10 – 11 December 2026
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <strong>Contact Information</strong>
+                  TBC
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          {/* Right: Google Map */}
           <div className="conference-map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1185.8720313082829!2d103.77232306057886!3d1.3058217211365872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1af575f7ff17%3A0x1056d4b4bd4641c8!2sUniversity%20Town%20(UTown)!5e0!3m2!1sen!2ssg!4v1778055592973!5m2!1sen!2ssg"
+              width="100%"
+              height="360"
+              style={{ border: 0 }}
+              allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              allowFullScreen
-              style={{ border: 0 }}
             ></iframe>
           </div>
-        
         </div>
       </section>
     </>
