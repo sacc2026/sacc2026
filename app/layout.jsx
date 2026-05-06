@@ -68,7 +68,7 @@ export default function RootLayout({ children }) {
         </header>
 
         {/* ===== MAIN CONTENT ===== */}
-        <main className="page-container">
+        <main className="main-content">
           {children}
         </main>
 
