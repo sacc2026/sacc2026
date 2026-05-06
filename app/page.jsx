@@ -8,7 +8,7 @@ export default function HomePage() {
           Southeast Asia Catalysis Conference
         </p>
         <p className="hero-info">
-          Singapore · December 2026
+          Singapore · 10 - 11 December 2026
         </p>
       </section>
 
@@ -54,6 +54,7 @@ export default function HomePage() {
               </tr>
             </tbody>
           </table>
+        </div>
       </section>
 
       {/* ===== CONFERENCE INFO ===== */}
@@ -62,10 +63,7 @@ export default function HomePage() {
         <ul className="info-list">
           <li><strong>Location:</strong> Singapore</li>
           <li><strong>Dates:</strong> December 2026</li>
-          <li>
-            <strong>Email:</strong>{" "}
-            TBC
-          </li>
+          <li><strong>Email:</strong> TBC</li>
         </ul>
       </section>
     </>
