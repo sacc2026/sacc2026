@@ -8,7 +8,36 @@ export default function HomePage() {
           Singapore · 10 – 11 December 2026
         </p>
       </section>
+      
+      {/* ===== WHAT TO EXPECT / OVERVIEW ===== */}
+      <section className="home-section">
+        <div className="content overview-section">
+      
+          <h2>What to Expect at SACC 2026</h2>
+      
+          <p className="overview-intro">
+            SACC 2026 brings together catalysis researchers, professionals, and
+            practitioners from Southeast Asia and beyond to share recent advances,
+            exchange ideas, and foster meaningful scientific interactions.
+          </p>
+      
+          <p>
+            The conference will feature oral and poster presentations covering
+            fundamental and applied catalysis, providing a platform for discussion,
+            collaboration, and community building within the region.
+          </p>
+      
+          <div className="overview-keywords">
+            <span>Southeast Asia Focus</span>
+            <span>International Participation</span>
+            <span>Cutting‑Edge Catalysis</span>
+            <span>Scientific Exchange</span>
+          </div>
+      
+        </div>
+      </section>
 
+      
       {/* ===== HOSTED BY ===== */}
       <section className="home-section">
         <div className="content">
