@@ -5,9 +5,6 @@ export default function HomePage() {
       <section className="home-hero">
         <h1>Southeast Asia Catalysis Conference 2026</h1>
         <p className="hero-subtitle">
-          Southeast Asia Catalysis Conference
-        </p>
-        <p className="hero-info">
           Singapore · 10 – 11 December 2026
         </p>
       </section>
