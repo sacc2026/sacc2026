@@ -337,3 +337,31 @@ body {
   justify-content: space-between; /* 🔴 pins CTA to bottom */
 }
 
+/* === FORCE Conference Map / Card Alignment === */
+
+.conference-info {
+  align-items: stretch !important;
+}
+
+/* Right column: full-height flex container */
+.conference-map {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+/* Map fills remaining space */
+.conference-map iframe {
+  flex: 1 1 auto !important;
+  height: auto !important;   /* 🚨 overrides previous fixed height */
+  min-height: 0 !important;  /* required for flex children */
+  width: 100%;
+  display: block;
+  border: 0;
+}
+
+/* CTA pinned to bottom */
+.map-cta {
+  margin-top: 12px;
+}
+``
