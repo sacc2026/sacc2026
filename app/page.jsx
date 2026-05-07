@@ -13,7 +13,7 @@ export default function HomePage() {
       <section className="home-section">
         <div className="content overview-section">
       
-          <h2>What to Expect at SACC 2026</h2>
+          <h2>Overview</h2>
       
           <p className="overview-intro">
             SACC 2026 brings together catalysis researchers, professionals, and
