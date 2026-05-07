@@ -112,8 +112,15 @@ export default function HomePage() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
+              <a
+                href="https://www.google.com/maps/dir/?api=1&destination=University+Town+NUS+Singapore"
+                target="_blank"
+                rel="noreferrer"
+                className="map-cta"
+              >
+                Get Directions
+              </a>
             </div>
-
           </div>
         </div>
       </section>
