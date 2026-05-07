@@ -27,13 +27,6 @@ export default function HomePage() {
             collaboration, and community building within the region.
           </p>
       
-          <div className="overview-keywords">
-            <span>Southeast Asia Focus</span>
-            <span>International Participation</span>
-            <span>Cutting‑Edge Catalysis</span>
-            <span>Scientific Exchange</span>
-          </div>
-      
         </div>
       </section>
 
