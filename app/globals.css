@@ -284,35 +284,20 @@ body {
   padding: 18px;
 }
 
-/* ===== OVERVIEW / WHAT TO EXPECT (text-only) ===== */
+/* ===== OVERVIEW / WHAT TO EXPECT ===== */
 .overview-section {
   max-width: 900px;
   margin: 0 auto;
 }
 
 .overview-section p {
-  font-size: 18px;
-  line-height: 1.65;
-  margin-bottom: 20px;
+  font-size: 20px;   /* ⬅️ increased from 18px */
+  line-height: 1.7;
+  margin-bottom: 22px;
   text-align: center;
 }
 
 .overview-intro {
+  font-size: 21px;   /* ⬅️ slightly larger lead paragraph */
   font-weight: 500;
 }
-
-.overview-keywords {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 18px 36px;
-  margin-top: 30px;
-}
-
-.overview-keywords span {
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0.4px;
-  color: #0b1f4a;
-}
-``
