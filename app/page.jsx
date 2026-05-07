@@ -3,7 +3,7 @@ export default function HomePage() {
     <>
       {/* ===== HERO ===== */}
       <section className="home-hero">
-        <h1>SACC 2026</h1>
+        <h1>Southeast Asia Catalysis Conference 2026</h1>
         <p className="hero-subtitle">
           Southeast Asia Catalysis Conference
         </p>
